@@ -11,7 +11,7 @@ router.get('/filteredimage', async (req : Request, res : Response) => {
         return res.status(400).send('Invalid image url.');
     }
 
-    var filteredImage = await filterImageFromURL(image_url);
+    var filteredImage: string = await filterImageFromURL(image_url);
 
     if (!filterImageFromURL) {
         return res.status(500).send('Something went wrong');
