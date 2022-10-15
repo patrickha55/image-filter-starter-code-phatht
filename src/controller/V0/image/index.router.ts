@@ -3,7 +3,7 @@ import { ImageRouter } from './routes/image.router';
 
 const router: Router = Router();
 
-router.use('/image', ImageRouter);
+router.use('/', ImageRouter);
 
 // Root Endpoint
 // Displays a simple message to the user
