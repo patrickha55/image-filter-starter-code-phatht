@@ -12,15 +12,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{HOST}}/api/v0/image/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg",
+					"raw": "http://{{HOST}}/filteredimage?image_url=https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg",
 					"protocol": "http",
 					"host": [
 						"{{HOST}}"
 					],
 					"path": [
-						"api",
-						"v0",
-						"image",
 						"filteredimage"
 					],
 					"query": [
